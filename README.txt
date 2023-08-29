@@ -1,1 +1,0 @@
-Le rezamos a don salvatore

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="486.0" y="36.5">Procesos.Proceso_3</node>
+    <node x="206.0" y="36.5">Procesos.Proceso_1</node>
+    <node x="67.0" y="36.5">Recursos.Container</node>
+    <node x="626.0" y="36.5">Procesos.Proceso_2</node>
+    <node x="346.0" y="36.5">Procesos.Proceso_4</node>
+    <node x="82.5" y="156.5">Main</node>
+    <node x="760.5" y="36.5">Procesos.HiloEscritor</node>
+    <node x="-64.0" y="-15.0">Recursos.Imagen</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="Recursos.Container" relationship="CREATE">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Procesos.Proceso_1" target="Recursos.Imagen" relationship="CREATE">
+      <point x="-0.0" y="-14.5" />
+      <point x="264.0" y="-0.5" />
+      <point x="50.0" y="-0.0" />
+    </edge>
+    <edge source="Main" target="Procesos.HiloEscritor" relationship="CREATE">
+      <point x="0.0" y="-14.5" />
+      <point x="124.0" y="131.0" />
+      <point x="824.0" y="131.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Main" target="Procesos.Proceso_2" relationship="CREATE">
+      <point x="0.0" y="-14.5" />
+      <point x="124.0" y="131.0" />
+      <point x="684.0" y="131.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Main" target="Procesos.Proceso_1" relationship="CREATE">
+      <point x="0.0" y="-14.5" />
+      <point x="124.0" y="131.0" />
+      <point x="264.0" y="131.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Main" target="Procesos.Proceso_4" relationship="CREATE">
+      <point x="0.0" y="-14.5" />
+      <point x="124.0" y="131.0" />
+      <point x="404.0" y="131.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Main" target="Procesos.Proceso_3" relationship="CREATE">
+      <point x="0.0" y="-14.5" />
+      <point x="124.0" y="131.0" />
+      <point x="544.0" y="131.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Recursos.Container" target="Recursos.Imagen" relationship="TO_MANY">
+      <point x="-57.0" y="-0.0" />
+      <point x="-14.0" y="51.0" />
+      <point x="-0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.1137931034482758" showDependencies="true" x="356.5" y="130.0" />
+  <SelectedNodes>
+    <node>Recursos.Imagen</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
